@@ -1,0 +1,4 @@
+<% Article.all.each do |x| %>
+    <h2><%= "#{x.title}" %></h2>
+    <ul><%= "#{x.content}" %></ul>
+    <% end %>
